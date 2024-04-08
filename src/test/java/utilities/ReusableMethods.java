@@ -55,7 +55,7 @@ public class ReusableMethods {
         for (String eachWHD : tumWHDSeti
         ) {
 
-            driver.switchTo().window(eachWHD);
+          Driver.getDriver().get(hedefUrl);
 
             if (driver.getCurrentUrl().equals(hedefUrl)){
                 break;
