@@ -11,23 +11,25 @@ public class C03_SingletonPattern {
     public void test01(){
 
         /*
-              Bir class'dan obje olusturulmasini engellemek icin
-              kullanilan yontemlerden birisi de Singleton Pattern'dir
+            Bir class'dan obje olusturulmasini engellemek icin
+            kullanilan yontemlerden birisi de Singleton Pattern'dir
 
-              POM tasarlayanlar
-              Driver class'indan obje olusturulmasini engellemek icin
-              singleton pattern kullanmislardir
+            POM tasarlayanlar
+            Driver class'indan obje olusturulmasini engellemek icin
+            singleton pattern kullanmislardir
 
-              singleton pattern;
-              bir class'dan obje olusturulmasini engellemek icin
-              class'daki default constructor'in yerine private access modifile'na
-              sahip olan
+            Singleton pattern;
+            bir class'dan obje olusturulmasini engellemek icin
+            class'daki default constructor'in yerine
+            private access modifier'ina sahip gorunur bir
+            constructor kullanmaya dayanir.
 
          */
 
+
         //testotomasyonu anasayfaya gidin
 
-        Driver driver = new Driver();
+       // Driver driver = new Driver();
 
        Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
 

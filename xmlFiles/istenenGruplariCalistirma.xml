@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+   Dinamik bir framework ile calisirken
+   istenen test'e dahil olan method'lar surekli degisebilir
+
+   Bu dinamik yapı ile daha kontrollu bir toplu calistirma icin
+   xml dosyasindan calisacak test method'larini secmek yerine
+   method'lari belirli gruplar olarak etiketleyebiliriz
+
+   boylece sectigimiz gruba dahil edilen tum method'lar otomatik olarak calisir
+
+   Bir test method'u dahil olmasi gereken tum test gruplarina dahil edilebilir
+
+   Calistirmak istedigimizde
+    -istedigimiz grup/gruplari
+    -bu gruplarin hangi package'lar altinda bulundugunu
+     belirtmemiz gerekir
+-->
+<!--
+  Bu dosya ile tum package'lardaki smoke testlerini
+  calistiralim 
+-->
+<suite name="istenen gruplari calistirma">
+    <test name="istenen grup testi">
+        <groups>
+            <run>
+                <include name="smoke">
+                    <exclude name="haftalik"></exclude>
+                    
+                </include>
+            </run>
+        </groups>
+        <packages>
+            <package name=""></package>
+        </packages>
+    </test>
+</suite>

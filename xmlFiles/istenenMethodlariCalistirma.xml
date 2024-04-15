@@ -1,0 +1,30 @@
+<!--
+
+  Bir class icerisindeki tum test methodlarini calistirmak istersek
+  tek tek methodlari secmek yerine tum classi calistirabiliriz
+
+  test methodu secimi bir class icindeki spesifik bir methodu calistirmak
+  veya belirlenen test methodu disindaki tum methodlari calistirmak icin kullanilir
+
+
+  ornegin day13 deki, C01 class'i icinde sadece "gecersizPasswordTesti" 'ni calistiralim
+
+
+  <exclude> secilen method'dan haric diger methodlari calistirir
+
+
+-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="istenen methodlari calistirma">
+
+    <test name="gecersiz Password testi">
+        <classes>
+            <class name="day13_TestNG_Assertions.C01_NegativeLoginTesti">
+                <methods>
+                    <include name="gecersizPasswordTesti"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
