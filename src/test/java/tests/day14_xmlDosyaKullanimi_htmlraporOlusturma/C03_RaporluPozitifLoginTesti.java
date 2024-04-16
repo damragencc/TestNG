@@ -25,11 +25,11 @@ public class C03_RaporluPozitifLoginTesti extends TestBaseRapor {
         extentTest.info("account linkine basar");
 
         //3- Kullanici email'i olarak gecerli email girin
-        testOtomasyonuPage.emailKutusu.sendKeys(ConfigReader.getProperty("toGecerliEmail"));
+        testOtomasyonuPage.emailKutusu.sendKeys(ConfigReader.getProperty("togecerliemail"));
         extentTest.info("Kullanici emaili olarak gecerli email girer");
 
         //4- Kullanici sifresi olarak gecerli password girin
-        testOtomasyonuPage.passwordKutusu.sendKeys(ConfigReader.getProperty("toGecerliPassword"));
+        testOtomasyonuPage.passwordKutusu.sendKeys(ConfigReader.getProperty("togecerliPassword"));
         extentTest.info("Kullanici sifresi olarak gecerli password girer");
 
 
@@ -47,6 +47,6 @@ public class C03_RaporluPozitifLoginTesti extends TestBaseRapor {
         extentTest.info("Logout butonuna basarak logout olur");
 
 
-        Driver.quitDriver();
+
     }
 }

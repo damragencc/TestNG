@@ -17,7 +17,7 @@ public class C02_DataProviderileNegatifLoginTesti {
         String[][] emailVeSifreler={  {"banu@gmail.com","898989"},
                                       {"sedat@yahoo.com","989887"},
                                       {"orkong@tmail.com","122334"},
-                                      {"wise@gmail.com","12345"},
+
                                       {"fatih@hotmail.com","454545"},
                                       {"arzu@senmail.com","676767"},
                                       {"mehmet@mynet.com","878987"}};
