@@ -12,7 +12,7 @@ public class WebUniversityPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "/*[text()='LOGIN PORTAL']")
+    @FindBy(xpath = "//h1[normalize-space()='LOGIN PORTAL']")
     public WebElement LoginPortal;
 
      @FindBy(id="text")

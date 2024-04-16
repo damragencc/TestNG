@@ -22,7 +22,7 @@ public class TestOtomasyonuFormPage {
     @FindBy(xpath = "(//select[@class='form-control'])[3]")
     public WebElement yilDropdownElementi;
 
-    @FindBy(xpath = "//*[@for='gridCheck5']")
+    @FindBy(xpath = "//input[@id='gridCheck5']")
     public WebElement sirtAgrisiYAziElementi;
 
     @FindBy(xpath = "//*[@id='gridCheck5']")

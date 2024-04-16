@@ -19,12 +19,12 @@
   <suite name="smoke test suite">
     <test name="smoke test">
         <classes>
-            <class name="day11_testNGFrameWork.C04_POM_ilkClass"></class>
-            <class name="day12_testNGFrameWork.C03_DropDownMenu"></class>
-            <class name="day12_testNGFrameWork.C08_PositiveLoginTest"></class>
-            <class name="day12_testNGFrameWork.C09_NegativeLoginTesti"></class>
-            <class name="day13_TestNG_Assertions.C01_NegativeLoginTesti"></class>
-            <class name="day13_TestNG_Assertions.C05_TestNG_SoftAssertions"></class>
+            <class name="tests.day11_testNGFrameWork.C04_POM_ilkClass"></class>
+            <class name="tests.day12_testNGFrameWork.C03_DropDownMenu"></class>
+            <class name="tests.day12_testNGFrameWork.C08_PositiveLoginTest"></class>
+            <class name="tests.day12_testNGFrameWork.C09_NegativeLoginTesti"></class>
+            <class name="tests.day13_TestNG_Assertions.C01_NegativeLoginTesti"></class>
+            <class name="tests.day13_TestNG_Assertions.C05_TestNG_SoftAssertions"></class>
         </classes>
 
     </test>

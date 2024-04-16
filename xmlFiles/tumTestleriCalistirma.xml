@@ -2,8 +2,10 @@
 
 <suite name="Tum testleri calistirma">
     <test name="regression testi">
+
         <packages>
-            <package name=""></package>
+            <package name="tests.*"></package>
         </packages>
+
     </test>
 </suite>
