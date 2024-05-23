@@ -39,6 +39,7 @@ public class C6_AramaTesti  {
 
 
         System.out.println("iyi gunler dilerim");
+        System.out.println("MURat");
 
         //  - sayfayi kapatin
         ReusableMethods.bekle(1);
