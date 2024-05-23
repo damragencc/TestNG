@@ -41,6 +41,7 @@ public class C6_AramaTesti  {
         System.out.println("iyi gunler dilerim");
         System.out.println("MURat");
         System.out.println("asdas");
+        System.out.println("dasdasdasdas");
 
         //  - sayfayi kapatin
         ReusableMethods.bekle(1);
