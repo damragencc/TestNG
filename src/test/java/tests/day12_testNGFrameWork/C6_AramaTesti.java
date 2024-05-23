@@ -38,10 +38,7 @@ public class C6_AramaTesti  {
         Assert.assertTrue(testOtomasyonuPage.bulunanUrunElementleriList.size() == 0);
 
 
-        System.out.println("iyi gunler dilerim");
-        System.out.println("MURat");
-        System.out.println("asdas");
-        System.out.println("dasdasdasdas");
+
 
         //  - sayfayi kapatin
         ReusableMethods.bekle(1);
