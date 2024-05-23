@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cross browser testler">
+
+
+
+    <test name="chrome ile calısacak testler">
+        <parameter name="kullanilacakBrowser" value="safari"></parameter>
+        <classes>
+            <class name="tests.day15_crossBroswerTesti.C01_ToAramaTesti"></class>
+            <class name="tests.day15_crossBroswerTesti.C02_IlkUrunTesti"></class>
+        </classes>
+    </test>
+
+
+    <test name="safari ile calisacak testler">
+        <parameter name="kullanilacakBrowser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.day15_crossBroswerTesti.C03_PozitifLoginTesti"></class>
+            <class name="tests.day15_crossBroswerTesti.C04_NegatifLoginTesti"></class>
+        </classes>
+    </test>
+
+
+
+</suite>

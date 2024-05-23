@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke testi">
+    <test name="smoke testi">
+        
+        
+    <classes>
+        <class name="tests.day12_testNGFrameWork.C02_FacebookLoginTest"></class>
+        <class name="tests.day13_TestNG_Assertions.C02_UrunSepetiTesti"></class>
+    </classes>
+        
+    </test>
+</suite>
