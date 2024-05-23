@@ -7,6 +7,8 @@ import pages.TestOtomasyonuPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import java.sql.SQLOutput;
+
 public class C6_AramaTesti  {
 
     // iki test methodu olusturup, asagidaki gorevleri yapin
@@ -34,6 +36,9 @@ public class C6_AramaTesti  {
         testOtomasyonuPage.aramaKutusu.sendKeys("Java" + Keys.ENTER);
         //  - urun bulunamadigini test edin
         Assert.assertTrue(testOtomasyonuPage.bulunanUrunElementleriList.size() == 0);
+
+
+        System.out.println("iyi gunler dilerim");
 
         //  - sayfayi kapatin
         ReusableMethods.bekle(1);
